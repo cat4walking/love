@@ -1,3 +1,4 @@
+
 var love = setInterval(function () {
     var r_num = Math.floor(Math.random() * 20) + 1;
     var r_size = Math.floor(Math.random() * 45) + 10;
@@ -31,3 +32,4 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+

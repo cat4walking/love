@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     margin: 0px;
     height: 100%;
 }
@@ -15,7 +15,6 @@ h2 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-image: url("https://images.wallpaperscraft.com/image/hearts_love_minimalism_159406_1600x1200.jpg");
     background-size: 100% 100%;
     z-index: -1;
 }
@@ -86,4 +85,4 @@ h2 {
     0% {
         top: 110%
     }
-}
+} */
