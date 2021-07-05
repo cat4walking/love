@@ -13,7 +13,7 @@ var love = setInterval(function () {
 
 var i = 0;
 var txt1 = "Hi SweetHeart.....!  <<               Anh có vài lời muốn nói trước khi đêm muộn <<<                Và em hãy lắng nghe nhé em    > Chúng ta gặp gỡ và yêu khi mà chưa một lần thấy mặt ngoài đời...  <<                  Bao lời hoa mỹ có lẻ anh không giỏi nói, nhưng mà yêu em là sự thật <<                           Anh hông nhớ lúc con tim mình rung động, nhưng anh biết khi ngủ dậy điều anh muốn thấy là nụ cười em                                                    > Mọi điều về em làm anh thích thú và cảm thấy em rất đáng yêu, mặc dù đôi lúc em dở chứng thật :3                     << Anh cá với Thơ rằng anh có thể cõng em đi một vòng công viên và hô lớn là anh yêu em rất nhiều                                                     > Anh yêu em hơn những điều anh có thể nói, những dòng anh có thể viết                    << Giá như anh là nhà thơ, mang vần Thơ lấp đầy trái tim anh                                                             >I Love U <<<<< good night my babe ...! >Feeling in this track |                  ";
-var speed = 40;
+var speed = 20;
 typeWriter();
 function typeWriter() {
     if (i < txt1.length) {
