@@ -3,6 +3,11 @@ html, body {
     height: 100%;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 30vh;
+}
+
 .bg_heart {
     position: relative;
     top: 0;
@@ -22,7 +27,7 @@ html, body {
     height: 100%;
     width: 100%;
     text-align: center;
-    color: rgb(190, 46, 77);
+    color: rgb(224, 109, 134);
     font-family: cursive;
 }
 
