@@ -1,19 +1,19 @@
 var love = setInterval(function () {
-    var r_num = Math.floor(Math.random() * 40) + 1;
-    var r_size = Math.floor(Math.random() * 65) + 10;
-    var r_left = Math.floor(Math.random() * 100) + 1;
-    var r_bg = Math.floor(Math.random() * 25) + 100;
+    var r_num = Math.floor(Math.random() * 20) + 1;
+    var r_size = Math.floor(Math.random() * 45) + 10;
+    var r_left = Math.floor(Math.random() * 70) + 1;
+    var r_bg = Math.floor(Math.random() * 5) + 100;
     var r_time = Math.floor(Math.random() * 5) + 5;
     $('.bg_heart').append("<div class='heart' style='width:" + r_size + "px;height:" + r_size + "px;left:" + r_left + "%;background:rgba(255," + (r_bg - 25) + "," + r_bg + ",1);-webkit-animation:love " + r_time + "s ease;-moz-animation:love " + r_time + "s ease;-ms-animation:love " + r_time + "s ease;animation:love " + r_time + "s ease'></div>");
 
     $('.bg_heart').append("<div class='heart' style='width:" + (r_size - 10) + "px;height:" + (r_size - 10) + "px;left:" + (r_left + r_num) + "%;background:rgba(255," + (r_bg - 25) + "," + (r_bg + 25) + ",1);-webkit-animation:love " + (r_time + 5) + "s ease;-moz-animation:love " + (r_time + 5) + "s ease;-ms-animation:love " + (r_time + 5) + "s ease;animation:love " + (r_time + 5) + "s ease'></div>");
 
 
-}, 500);
+}, 200);
 
 var i = 0;
 var txt1 = "Hi SweetHeart.....!  <<               Anh có vài lời muốn nói trước khi đêm muộn <<<                Và em hãy lắng nghe nhé em    > Chúng ta gặp gỡ và yêu khi mà chưa một lần thấy mặt ngoài đời...  <<                  Bao lời hoa mỹ có lẻ anh không giỏi nói, nhưng mà yêu em là sự thật <<                           Anh hông nhớ lúc con tim mình rung động, nhưng anh biết khi ngủ dậy điều anh muốn thấy là nụ cười em                                                    > Mọi điều về em làm anh thích thú và cảm thấy em rất đáng yêu, mặc dù đôi lúc em dở chứng thật :3                     << Anh cá với Thơ rằng anh có thể cõng em đi một vòng công viên và hô lớn là anh yêu em rất nhiều                                                     > Anh yêu em hơn những điều anh có thể nói, những dòng anh có thể viết                    << Giá như anh là nhà thơ, mang vần Thơ lấp đầy trái tim anh                                                             >I Love U <<<<< good night my babe ...! >Feeling in this track |                  ";
-var speed = 20;
+var speed = 60;
 typeWriter();
 function typeWriter() {
     if (i < txt1.length) {
