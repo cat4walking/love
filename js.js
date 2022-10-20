@@ -13,7 +13,7 @@ var love = setInterval(function () {
 }, 200);
 
 var i = 0;
-var txt1 = "Hi Brother.....!  <<               Anh có vài lời muốn nói trước khi chiều muộn <<<                Và em hãy lắng nghe nhé em    > Chúng ta gặp gỡ và biết nhau khi mà ...  <<                  Trời mưa :))) <<                           Hôm nay là sinh nhật của em, anh chúc em một tuổi mới thêm thành công nhé                                                    > Mọi điều trong cuộc sống, mọi dự định trong tương lai và xa hơn                     << Get lucky, brother                                                     > To be a simple man                    << Cảm ơn ly trà nhớ :))))                                                             >Dear bro <<<<< Happy birthday ...! |                  ";
+var txt1 = "Hi My Close...!  <<               Anh có vài lời muốn nói trước đêm muộn <<<                Một ngày ý nghĩa, và biểu tượng    > Chúng ta gặp gỡ và biết nhau khi mà ...  <<                  Trời mưa :))) <<                           Chúa đưa đường dẫn lối anh được gặp gỡ em, và biết em                                                     > Mọi thứ thật tuyệt vời, một tình bạn mà anh luôn sẽ ghi nhớ và gìn giữ                     << 20 - 10, anh chúc Hà thật hạnh phúc, đạt được những mục tiêu mình đề ra và luôn vươn cao hơn nữa                                                     > Get lucky                    << To be a Christian                                                             >Dear bro :))) <<<<< Happy special day ...! |                  ";
 var speed = 60;
 typeWriter();
 function typeWriter() {
